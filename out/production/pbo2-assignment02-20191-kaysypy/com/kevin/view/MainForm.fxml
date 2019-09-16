@@ -73,7 +73,7 @@
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></Button>
-                        <Button mnemonicParsing="false" onAction="#actionUpdate" text="Update" />
+                        <Button fx:id="btnUp" mnemonicParsing="false" onAction="#actionUpdate" text="Update" />
                      </children>
                   </HBox>
                </children>
